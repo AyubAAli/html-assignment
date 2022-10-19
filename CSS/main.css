@@ -1,0 +1,46 @@
+body {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header, footer {
+    background-color:cadetblue;
+}
+
+.site-title {
+    color:darksalmon;
+}
+
+#my-image {
+    box-shadow:0 1px 2px black, 0 0 40px rgba(0, 0, 0, 2);
+}
+
+ul {
+    list-style-type: square;
+    
+}
+
+li:nth-child(odd) {
+    background-image: url(../images/background.jpg);
+    color:darkgoldenrod;
+}
+
+.link {
+    text-decoration: none ;
+    outline: auto;
+    background-color: rgb(116, 223, 162);
+    
+}
+.link:hover{
+    color: rgb(240, 113, 113);
+}
+
+
+.noteslink{
+    text-decoration: none;
+    outline: auto;
+    background-color: rgb(116, 223, 162);
+}
+.noteslink:hover{
+    color: rgb(240, 113, 113);
+}
