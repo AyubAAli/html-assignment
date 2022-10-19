@@ -20,6 +20,8 @@ ul {
     
 }
 
+/* link style formatting */
+
 li:nth-child(odd) {
     background-image: url(../images/background.jpg);
     color:darkgoldenrod;
